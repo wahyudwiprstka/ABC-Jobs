@@ -1,0 +1,22 @@
+.job{
+	min-height: 60vh;
+}
+
+.item{
+	margin: 20px;
+	padding: 10px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container > a{
+	flex: 40%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}

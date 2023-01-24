@@ -1,0 +1,40 @@
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 80vh;
+}
+
+table{
+	margin-top: 20px;
+	width: 90vw;
+	text-align: center;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.btn-add{
+	text-align: center;
+	background-color: #13aa52;
+	border: 1px solid #13aa52;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 0 30px;
+	text-align: center;
+	transition: 0.2s;
+	width: 200px;
+	height: 40px;
+}
+
+a i.bi-check-square-fill{
+	color: #13aa52;
+}
+
+a i.bi-x-square-fill{
+	color: red;
+}

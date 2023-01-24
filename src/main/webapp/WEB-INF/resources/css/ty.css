@@ -1,0 +1,34 @@
+html, body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.ty-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 40vw;
+	height: 50vh;
+	margin: 50px auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ty-container button{
+	margin: 20px auto;
+	background-color: #13aa52;
+	border: 1px solid #13aa52;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 0 30px;
+	text-align: center;
+	transition: 0.2s;
+	width: 250px;
+	height: 50px;
+}
+
+.ty-container button:hover{
+	box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+	background-color: #029941;
+}

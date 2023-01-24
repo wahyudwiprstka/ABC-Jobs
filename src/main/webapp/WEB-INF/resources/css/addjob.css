@@ -1,0 +1,30 @@
+.container{
+	width: 50vw;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.form-control input{
+	margin: auto;
+	width: 60vw;
+}
+
+.input-group{
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+form button{
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 30px;
+  text-align: center;
+  align-items: center;
+  transition: 0.2s;
+  width: 300px;
+  margin: 10px auto;
+}

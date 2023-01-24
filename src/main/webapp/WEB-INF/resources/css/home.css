@@ -1,0 +1,12 @@
+section{
+    min-height: 90vh;
+}
+
+img{
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.description{
+    margin-left: 8%;
+}

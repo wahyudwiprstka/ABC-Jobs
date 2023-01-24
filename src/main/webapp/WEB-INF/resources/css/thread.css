@@ -1,0 +1,42 @@
+.thread, .comment{
+	width: 45vw;
+}
+
+.btn-comment, .btn-thread{
+	text-align: center;
+	background-color: #13aa52;
+	border: 1px solid #13aa52;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+	color: #fff;
+	cursor: pointer;
+	padding: 0 30px;
+	text-align: center;
+	transition: 0.2s;
+	width: 200px;
+	height: 40px;
+}
+
+.btn-thread{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 70px;
+	border-radius: 50%;
+}
+
+img.photocomment{
+	width: 40px;
+	border-radius: 50%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+p.comment-content{
+	font-weight: lighter;
+}
